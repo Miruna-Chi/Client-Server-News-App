@@ -1,6 +1,6 @@
 # Client-server application
 
-- server.cpp
+## server.cpp
 
   - create the 2 sockets: one for UDP clients, the other for TCP clients
   - disable Nagle
@@ -69,7 +69,7 @@ While (1):
       among them)
 
 
-### subscriber.cpp
+## subscriber.cpp
 
 - for the subscriber, the selection mechanism is very similar, but simpler:
 
@@ -83,7 +83,7 @@ While (1):
     - unsubscribe topic
     - exit
 
-### message.cpp / h
+## message.cpp / h
 
 - deals with parsing messages
 
